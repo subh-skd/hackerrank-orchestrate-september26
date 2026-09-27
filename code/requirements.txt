@@ -1,0 +1,18 @@
+# Install CPU PyTorch first:
+#   pip install --index-url https://download.pytorch.org/whl/cpu torch
+torch>=2.14
+
+# Agent
+langgraph>=1.2
+langchain-core>=1.6
+
+# Local model from the Hugging Face Hub
+transformers>=5.17
+huggingface_hub>=1.31
+
+# Document OCR (ONNX runtime, CPU)
+rapidocr_onnxruntime>=1.4
+
+# Machine learning (evaluated spending-forecast model)
+scikit-learn>=1.9
+numpy>=2.5
